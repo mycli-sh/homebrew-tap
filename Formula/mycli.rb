@@ -1,4 +1,4 @@
-class My < Formula
+class Mycli < Formula
   desc "CLI tool for defining, publishing, and running shell-based command specs"
   homepage "https://mycli.sh"
   url "https://github.com/mycli-sh/mycli/archive/refs/tags/v0.0.2.tar.gz"
