@@ -1,7 +1,7 @@
 class My < Formula
   desc "CLI tool for defining, publishing, and running shell-based command specs"
   homepage "https://mycli.sh"
-  url "https://github.com/mycli-sh/mycli/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/mycli-sh/mycli/archive/refs/tags/v0.0.0.tar.gz"
   sha256 "PLACEHOLDER"
   license "MIT"
 
