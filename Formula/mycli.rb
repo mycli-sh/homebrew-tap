@@ -9,6 +9,8 @@ class Mycli < Formula
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X mycli.sh/cli/internal/config.DefaultAPIURL=https://api.mycli.sh -X mycli.sh/cli/internal/client.Version=#{version}"), "-o", bin/"my", "./cli/cmd/my"
+
+    generate_completions_from_executable(bin/"my", "completion")
   end
 
   test do
