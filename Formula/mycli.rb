@@ -1,8 +1,8 @@
 class Mycli < Formula
   desc "CLI tool for defining, publishing, and running shell-based command specs"
   homepage "https://mycli.sh"
-  url "https://github.com/mycli-sh/mycli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "2530ac9818d5a1805e1d24e5dbe4fed158f9f463988d9279a22e0cec49db410d"
+  url "https://github.com/mycli-sh/mycli/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "56809fe046a5261f28b8c6520c4d81b11a628ec4bdc349913628f1a43bfbd47c"
   license "MIT"
 
   depends_on "go" => :build
